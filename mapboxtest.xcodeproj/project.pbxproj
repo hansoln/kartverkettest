@@ -21,6 +21,10 @@
 		9A86398018A50578001FA886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A86396218A50578001FA886 /* UIKit.framework */; };
 		9A86398818A50578001FA886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A86398618A50578001FA886 /* InfoPlist.strings */; };
 		9A86398A18A50578001FA886 /* mapboxtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86398918A50578001FA886 /* mapboxtestTests.m */; };
+		9ADAA26318A5522F00384E8B /* INAWebSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAA26218A5522F00384E8B /* INAWebSource.m */; };
+		9ADAA26818A5704400384E8B /* RMWMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAA26518A5704400384E8B /* RMWMS.m */; };
+		9ADAA26918A5704400384E8B /* RMWMSSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAA26718A5704400384E8B /* RMWMSSource.m */; };
+		B92792EC90E64AA08FD7D8C3 /* libPods-mapboxtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED33A408807D477C9C5CBEE3 /* libPods-mapboxtest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		9A86398518A50578001FA886 /* mapboxtestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mapboxtestTests-Info.plist"; sourceTree = "<group>"; };
 		9A86398718A50578001FA886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A86398918A50578001FA886 /* mapboxtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapboxtestTests.m; sourceTree = "<group>"; };
+		9ADAA26118A5522F00384E8B /* INAWebSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAWebSource.h; sourceTree = "<group>"; };
+		9ADAA26218A5522F00384E8B /* INAWebSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAWebSource.m; sourceTree = "<group>"; };
+		9ADAA26418A5704400384E8B /* RMWMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMWMS.h; sourceTree = "<group>"; };
+		9ADAA26518A5704400384E8B /* RMWMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMWMS.m; sourceTree = "<group>"; };
+		9ADAA26618A5704400384E8B /* RMWMSSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMWMSSource.h; sourceTree = "<group>"; };
+		9ADAA26718A5704400384E8B /* RMWMSSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMWMSSource.m; sourceTree = "<group>"; };
+		AEB896ED708545A7BC8AFA81 /* Pods-mapboxtest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapboxtest.xcconfig"; path = "Pods/Pods-mapboxtest.xcconfig"; sourceTree = "<group>"; };
+		ED33A408807D477C9C5CBEE3 /* libPods-mapboxtest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapboxtest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 				9A86396118A50578001FA886 /* CoreGraphics.framework in Frameworks */,
 				9A86396318A50578001FA886 /* UIKit.framework in Frameworks */,
 				9A86395F18A50578001FA886 /* Foundation.framework in Frameworks */,
+				B92792EC90E64AA08FD7D8C3 /* libPods-mapboxtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 				9A86398318A50578001FA886 /* mapboxtestTests */,
 				9A86395D18A50578001FA886 /* Frameworks */,
 				9A86395C18A50578001FA886 /* Products */,
+				AEB896ED708545A7BC8AFA81 /* Pods-mapboxtest.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,7 @@
 				9A86396018A50578001FA886 /* CoreGraphics.framework */,
 				9A86396218A50578001FA886 /* UIKit.framework */,
 				9A86397D18A50578001FA886 /* XCTest.framework */,
+				ED33A408807D477C9C5CBEE3 /* libPods-mapboxtest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +127,10 @@
 		9A86396418A50578001FA886 /* mapboxtest */ = {
 			isa = PBXGroup;
 			children = (
+				9ADAA26418A5704400384E8B /* RMWMS.h */,
+				9ADAA26518A5704400384E8B /* RMWMS.m */,
+				9ADAA26618A5704400384E8B /* RMWMSSource.h */,
+				9ADAA26718A5704400384E8B /* RMWMSSource.m */,
 				9A86396D18A50578001FA886 /* INAAppDelegate.h */,
 				9A86396E18A50578001FA886 /* INAAppDelegate.m */,
 				9A86397018A50578001FA886 /* Main.storyboard */,
@@ -119,6 +138,8 @@
 				9A86397418A50578001FA886 /* INAViewController.m */,
 				9A86397618A50578001FA886 /* Images.xcassets */,
 				9A86396518A50578001FA886 /* Supporting Files */,
+				9ADAA26118A5522F00384E8B /* INAWebSource.h */,
+				9ADAA26218A5522F00384E8B /* INAWebSource.m */,
 			);
 			path = mapboxtest;
 			sourceTree = "<group>";
@@ -159,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A86398D18A50578001FA886 /* Build configuration list for PBXNativeTarget "mapboxtest" */;
 			buildPhases = (
+				C643C9FB7EC94C91A746EF07 /* Check Pods Manifest.lock */,
 				9A86395718A50578001FA886 /* Sources */,
 				9A86395818A50578001FA886 /* Frameworks */,
 				9A86395918A50578001FA886 /* Resources */,
+				3B10B1A74E024A019A811EE6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +268,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B10B1A74E024A019A811EE6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-mapboxtest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C643C9FB7EC94C91A746EF07 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A86395718A50578001FA886 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADAA26318A5522F00384E8B /* INAWebSource.m in Sources */,
 				9A86396B18A50578001FA886 /* main.m in Sources */,
+				9ADAA26818A5704400384E8B /* RMWMS.m in Sources */,
 				9A86396F18A50578001FA886 /* INAAppDelegate.m in Sources */,
 				9A86397518A50578001FA886 /* INAViewController.m in Sources */,
+				9ADAA26918A5704400384E8B /* RMWMSSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +435,7 @@
 		};
 		9A86398E18A50578001FA886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB896ED708545A7BC8AFA81 /* Pods-mapboxtest.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +449,7 @@
 		};
 		9A86398F18A50578001FA886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB896ED708545A7BC8AFA81 /* Pods-mapboxtest.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +522,7 @@
 				9A86398F18A50578001FA886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A86399018A50578001FA886 /* Build configuration list for PBXNativeTarget "mapboxtestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +531,7 @@
 				9A86399218A50578001FA886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

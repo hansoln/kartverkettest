@@ -1,0 +1,1 @@
+PODS_MAPBOXTEST_GRMUSTACHE_OTHER_LDFLAGS = -framework Foundation
